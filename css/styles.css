@@ -86,6 +86,18 @@ a {
   background-color: #dc3545;
 }
 
+.btn-bg-light {
+  color: #000;
+  background-color: #F7F9FC;
+  transition: 0.3s ease-out;
+}
+
+.btn-bg-light:hover {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
 header.sticky {
   background-color: white !important;
   padding: 5px 0;
@@ -388,4 +400,242 @@ header.sticky {
 }
 .index-3 .container .content .bottom-section .stats-con .stats_info:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+
+.index-4 {
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url(../img/bg.jpg);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 480px;
+  display: grid;
+  align-items: center;
+  padding: 2rem 0;
+}
+.index-4 .container .content .middle-section {
+  max-width: 550px;
+}
+.index-4 .container .content .middle-section .section-width h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.index-4 .container .content .middle-section .link-list-menu p {
+  color: #5a5a5a;
+}
+
+.index-5 .container .content .header-section {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.index-5 .container .content .grid-view .grids5-info {
+  border-radius: 6px;
+  transition: 0.3s ease-in;
+  display: block;
+  height: 100%;
+  background: #fff;
+  border: 1px solid #eee;
+}
+.index-5 .container .content .grid-view .grids5-info a .news-image {
+  transition: 0.3s ease-in-out;
+  filter: grayscale(1);
+}
+.index-5 .container .content .grid-view .grids5-info a .date {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  border-bottom: none;
+  padding-bottom: 0px;
+  position: absolute;
+  top: 0;
+  background: #e83e8c;
+  padding: 15px;
+  margin-bottom: 0;
+  right: 0;
+  margin-top: 0;
+}
+.index-5 .container .content .grid-view .grids5-info a.zoom {
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.index-5 .container .content .grid-view .grids5-info .blog-info {
+  background: white;
+  padding: 30px 20px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.index-5 .container .content .grid-view .grids5-info .blog-info .tag-label {
+  padding: 5px 16px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.index-5 .container .content .grid-view .grids5-info .blog-info .tag-label.red {
+  background: rgba(238, 97, 120, 0.2);
+  color: #e83e8c;
+}
+.index-5 .container .content .grid-view .grids5-info .blog-info .tag-label.green {
+  background: rgba(0, 128, 0, 0.2);
+  color: #008000;
+}
+.index-5 .container .content .grid-view .grids5-info .blog-info .tag-label.blue {
+  background: rgba(0, 0, 255, 0.2);
+  color: #0000ff;
+}
+.index-5 .container .content .grid-view .grids5-info .blog-info h4 a {
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  display: block;
+  font-weight: 600;
+}
+.index-5 .container .content .grid-view .grids5-info .blog-info p {
+  font-size: 16px;
+  line-height: 24.5px;
+  color: #5a5a5a;
+  margin-top: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.index-5 .container .content .grid-view .grids5-info .blog-info a {
+  padding: 0;
+  color: #e83e8c;
+  transition: 0.3s ease-in-out;
+  border-radius: 0;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+}
+.index-5 .container .content .grid-view .grids5-info .blog-info a span {
+  font-size: 60%;
+  vertical-align: middle;
+  padding-left: 0px;
+  position: absolute;
+  right: -13px;
+  top: 7.5px;
+  transition: 0.3s ease-in;
+}
+.index-5 .container .content .grid-view .grids5-info:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+.index-5 .container .content .grid-view .grids5-info:hover a .news-image {
+  transition: 0.3s ease-in-out;
+  filter: grayscale(0);
+}
+.index-5 .container .content .grid-view .grids5-info:hover .blog-info h4 a {
+  color: #e83e8c;
+}
+.index-5 .container .content .grid-view .grids5-info:hover .blog-info a span {
+  transform: translateX(5px);
+}
+
+.index-6 {
+  background-color: #F7F9FC;
+}
+.index-6 .container .content .top-section {
+  max-width: 750px;
+  margin: 0 auto;
+}
+.index-6 .container .content .bottom-section .left .faq-image {
+  position: sticky;
+  top: 80px;
+}
+.index-6 .container .content .bottom-section .left .faq-image img {
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul {
+  list-style: none;
+  padding: 0;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li {
+  position: relative;
+  padding: 25px 50px 25px 20px;
+  border: 1px solid #eee;
+  margin: 0 0 15px 0;
+  border-radius: 6px;
+  background: #fff;
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li input[type=checkbox]:checked ~ i:before {
+  transform: translate(2px, 0) rotate(45deg);
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li input[type=checkbox]:checked ~ i:after {
+  transform: translate(-2px, 0) rotate(-45deg);
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 25px;
+  top: 16px;
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li i::before {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  width: 3px;
+  height: 9px;
+  transition: all 0.5s;
+  transform: translate(-2px, 0) rotate(45deg);
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li i::after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  width: 3px;
+  height: 9px;
+  transition: all 0.5s;
+  transform: translate(2px, 0) rotate(-45deg);
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li h2 {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: normal;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+  color: #000;
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li p {
+  color: #5a5a5a;
+  font-size: 16px;
+  line-height: 24.5px;
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-top: 14px;
+  z-index: 2;
+  transition: all 0.3s;
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li input[type=checkbox]:checked ~ p {
+  margin-top: 0;
+  max-height: 0;
+  opacity: 0;
+  transform: translate(0, 50%);
+}
+.index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li:nth-of-type(1) {
+  animation-delay: 0.5s;
 }
