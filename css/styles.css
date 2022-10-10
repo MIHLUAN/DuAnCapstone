@@ -639,3 +639,240 @@ header.sticky {
 .index-6 .container .content .bottom-section .right .w3l-faq .faq-page ul li:nth-of-type(1) {
   animation-delay: 0.5s;
 }
+
+nav#breadcrumbs {
+  padding: 15px 20px;
+  background: #F7F9FC;
+}
+
+.page-wrapper {
+  color: #2C3038;
+  font-size: 14px;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+nav#breadcrumbs a {
+  color: #dc4f72;
+  margin: 0 5px 0 0;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+.pt-5, .py-5 {
+  padding-top: 3rem !important;
+}
+
+.header-section {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.header-section h2 {
+  color: #2C3038;
+  font-size: 46px;
+  line-height: 55px;
+  font-weight: 800;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.w3l-about1 .cwp4-text {
+  align-self: center;
+}
+
+.w3l-about1 .cwp4-text h3 {
+  font-size: 36px;
+  line-height: 44px;
+  color: #2C3038;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.w3l-about1 .cwp4-text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24.5px;
+  color: #2C3038;
+  margin: 15px 0 35px 0;
+}
+
+.w3l-about1 .cwp4-text ul li {
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2C3038;
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+.w3l-about1 ul.cont-4 li span.fa {
+  color: #dc4f72;
+  margin-right: 12px;
+  background: rgba(220, 79, 114, 0.1);
+  font-size: 10px;
+  padding: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+w3l-about1 .cwp4-two img {
+  border-radius: 5px !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.pb-lg-3, .py-lg-3 {
+  padding-bottom: 1rem !important;
+}
+
+.w3l-about2 .features h5 {
+  font-size: 26px;
+  line-height: 32px;
+  color: #2C3038;
+  font-weight: 700;
+}
+
+.w3l-services {
+  background-color: #F7F9FC;
+}
+
+.sub-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #dc4f72;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.header-section h3 {
+  color: #2C3038;
+  font-size: 46px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.header-section p {
+  color: #2C3038;
+  font-size: 16px;
+  line-height: 22.5px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.pt-4, .py-4 {
+  padding-top: 1.5rem !important;
+}
+
+.elite-services1, .elite-services2, .elite-services3, .elite-services4 {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+}
+
+.bott-img {
+  width: 100%;
+  height: 250px;
+  margin: 0px 0;
+  text-align: center;
+  transition: all 0.3s ease;
+  padding: 0 30px;
+}
+
+.bott-img .icon-holder {
+  position: relative;
+  top: 60px;
+  display: inline-block;
+  margin-bottom: 68px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  transition: all 0.3s ease;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 26px;
+  background-color: #dc4f72;
+}
+
+.bott-img .icon-holder > .service-icon {
+  line-height: 70px;
+}
+
+.bott-img .mission {
+  position: relative;
+  top: 10px;
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #000;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #2C3038;
+}
+
+.bott-img .description {
+  margin: -6em auto 0;
+  opacity: 0;
+  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: scale(0);
+}
+
+.description p {
+  color: #2C3038;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description a {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #dc4f72;
+}
+
+.bott-img:hover .icon-holder {
+  top: -40px;
+  background: #dc4f72;
+}
+
+.bott-img:hover .mission {
+  top: -80px;
+}
+
+.bott-img:hover .description {
+  opacity: 1;
+  transform: scale(1);
+  font-size: 14px;
+  line-height: 2.2em;
+}
