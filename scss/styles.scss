@@ -1116,6 +1116,7 @@ header.sticky {
 // footer
 .footer {
   background-color: #F7F9FC;
+
   .container {
     .content {
       h3 {
@@ -1213,14 +1214,21 @@ header.sticky {
       .below-section {
         border-top: 1px solid #eaeaea;
 
+        @media screen and(max-width:667px) {
+          display: block !important;
+          text-align: center;
+        }
+
         div p {
           line-height: 22px;
           color: $text-c2-gray;
           font-size: 16px;
-          a{
+
+          a {
             color: $text-c1-dark;
             transition: all 0.5s;
-            &:hover{
+
+            &:hover {
               color: $text-c1-pink;
             }
           }
@@ -1239,13 +1247,15 @@ header.sticky {
               display: inline-block;
               border-radius: 50%;
               text-align: center;
-              span{
+
+              span {
                 font-size: 15px;
-    line-height: 36px;
-    transition: all 0.4s;
-        &:hover{
-      color: $text-c1-pink;
-    }
+                line-height: 36px;
+                transition: all 0.4s;
+
+                &:hover {
+                  color: $text-c1-pink;
+                }
               }
             }
           }

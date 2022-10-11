@@ -916,6 +916,12 @@ header.sticky {
 .footer .container .content .below-section {
   border-top: 1px solid #eaeaea;
 }
+@media screen and (max-width: 667px) {
+  .footer .container .content .below-section {
+    display: block !important;
+    text-align: center;
+  }
+}
 .footer .container .content .below-section div p {
   line-height: 22px;
   color: #5a5a5a;
