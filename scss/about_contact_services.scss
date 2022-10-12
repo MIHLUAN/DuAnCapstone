@@ -7,12 +7,18 @@
     border-color: #cf2952 !important;
   }
   nav#breadcrumbs {
+   
     padding: 15px 20px;
-    background: #F7F9FC;;
+    background: #F7F9FC;
+    
   }
   .page-wrapper {
+    margin: 0 auto;
+    margin-top: 80px;
     color: #2C3038;
     font-size: 14px;
+    max-width: 1180px;
+    
   }
   a, a:hover {
     text-decoration: none;
@@ -44,6 +50,14 @@
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    
+  }
+  .contact{
+    .contact-form{
+       @media screen and (max-width:992px) {
+      left: 0 !important;
+    }
+    }
   }
   .w3l-about1 .cwp4-text {
     align-self: center;
@@ -603,6 +617,11 @@
     grid-gap: 20px;
     transition: 0.3s ease-in-out;
     text-align: center;
+  }
+  .help .content-info{
+    @media screen and(max-width:768px) {
+      grid-template-columns: 1fr;
+    }
   }
   
   .help .icon {
