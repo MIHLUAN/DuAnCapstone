@@ -61,17 +61,17 @@
               class="collapse navbar-collapse justify-content-end"
               id="navbarNavDropdown"
             >
-              <ul class="navbar-nav align-items-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html"
+              <ul class=" navbar-nav align-items-center " id="navbar">
+                <li class="nav-item ">
+                  <a class="  nav-link active"  href="index.html"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
+                  <a class=" nav-link"  href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Services.html">Services</a>
+                  <a class=" nav-link"  href="Services.html">Services</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a
@@ -80,20 +80,21 @@
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
+                    data-toggle="tab" role="tab"
                   >
                     Pages<span class="fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Blog posts</a></li>
+                    <li><a class="dropdown-item" href="./blog_posts.html">Blog posts</a></li>
                     <li>
-                      <a class="dropdown-item" href="#">Blog single</a>
+                      <a class="dropdown-item" href="./blog_single.html">Blog single</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">Landing page</a>
+                      <a class="dropdown-item" href="./landing_page.html">Landing page</a>
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" data-toggle="tab" role="tab">
                   <a class="nav-link" href="Contact.html">Contact</a>
                 </li>
                 <li>
@@ -653,6 +654,8 @@
         </div>
       </div>
     </footer>
+        <!-- button croll -->
+        <a id="button_croll"></a>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -684,7 +687,9 @@
         }
       };
     </script>
+
     <!-- header -->
+    
     <script type="text/javascript">
       window.addEventListener("scroll", function () {
         var header = document.querySelector("header");
@@ -744,7 +749,24 @@ $(document).ready(function () {
   })
 
 </script>
+<!-- script scroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script>
+  var btn = $("#button_croll");
 
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass("show");
+    } else {
+      btn.removeClass("show");
+    }
+  });
+
+  btn.on("click", function (e) {
+    e.preventDefault();
+    $("html, body").animate({ scrollTop: 0 }, "300");
+  });
+</script>
 
   </body>
 </html>
