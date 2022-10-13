@@ -3,6 +3,7 @@
  <-------------->
  -Nhóm:Hà Nguyễn Minh Luân + Huỳnh Minh Nhật
  -Link deploy vercel:https://duancapstone.surge.sh
- -Link github:
+ -Link github:https://github.com/MIHLUAN/DuAnCapstone.git
+ 
  
  
