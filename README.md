@@ -4,7 +4,7 @@
  -Nhóm:Hà Nguyễn Minh Luân + Huỳnh Minh Nhật
  -Link deploy vercel:https://duancapstone.surge.sh
  -Link github:https://github.com/MIHLUAN/DuAnCapstone.git
- -Link youtube:
+ -Link youtube:https://www.youtube.com/watch?v=1OpmAZmSX0g
  -Phân công việc nhóm:
  *Hà Nguyễn Minh Luân
  -Các Phần:
